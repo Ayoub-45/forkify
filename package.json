@@ -1,0 +1,23 @@
+{
+  "name": "forkify-application",
+  "version": "1.0.0",
+  "description": "Application for searching recipies ",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index. html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ayoub Nasraoui",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.57.1"
+  }
+}
